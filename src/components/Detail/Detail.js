@@ -48,7 +48,7 @@ export default function Detail() {
         <div className="left-content">
           <h2>{restaurant.name}</h2>
           <p className="address">{restaurant.address}</p>
-          <p className="category">Category - $$4000</p>
+          <p className="category">{restaurant.categories[0]} - $${restaurant.price_range}</p>
         </div>
         <div className="right-content">
           <div className="star-detail">{renderStars(restaurant.rating)}</div>
