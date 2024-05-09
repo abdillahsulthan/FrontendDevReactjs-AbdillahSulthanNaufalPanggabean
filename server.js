@@ -5,7 +5,7 @@ const app = express();
 const port = 3001;
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://restaurant-website-jet.vercel.app',
 };
 
 app.use(cors(corsOptions));
