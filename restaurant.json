@@ -1,0 +1,334 @@
+{
+    "restaurants": [
+        {
+            "id": 1,
+            "name": "The Grill House",
+            "rating": 5,
+            "price_range": 4800,
+            "open_now": true,
+            "categories": ["Steakhouse", "Fine Dining"],
+            "photos": "https://source.unsplash.com/featured/?steakhouse",
+            "address": "789 Ribeye Road, Grillsburg",
+            "open_hours": {
+                "Monday": "5:00 PM - 10:00 PM",
+                "Tuesday": "5:00 PM - 10:00 PM",
+                "Wednesday": "5:00 PM - 10:00 PM",
+                "Thursday": "5:00 PM - 10:00 PM",
+                "Friday": "5:00 PM - 11:00 PM",
+                "Saturday": "4:00 PM - 11:00 PM",
+                "Sunday": "4:00 PM - 10:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 121,
+                    "user": "John Smith",
+                    "rating": 4.8,
+                    "text": "Exceptional steaks and impeccable service!"
+                },
+                {
+                    "id": 122,
+                    "user": "Jessica Davis",
+                    "rating": 4.6,
+                    "text": "Great ambiance and perfectly cooked meats."
+                }
+            ]
+        },        
+        {
+            "id": 2,
+            "name": "Cafe de Paris",
+            "rating": 4,
+            "price_range": 3000,
+            "open_now": true,
+            "categories": ["French", "Casual Dining"],
+            "photos": "https://source.unsplash.com/featured/?restaurant",
+            "address": "456 Oak Street, Townsville",
+            "open_hours": {
+              "Monday": "9:00 AM - 8:00 PM",
+              "Tuesday": "9:00 AM - 8:00 PM",
+              "Wednesday": "9:00 AM - 8:00 PM",
+              "Thursday": "9:00 AM - 8:00 PM",
+              "Friday": "9:00 AM - 9:00 PM",
+              "Saturday": "11:00 AM - 9:00 PM",
+              "Sunday": "11:00 AM - 8:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 103,
+                    "user": "Michael Johnson",
+                    "rating": 4.5,
+                    "text": "Delicious French cuisine!"
+                },
+                {
+                    "id": 104,
+                    "user": "Sarah Williams",
+                    "rating": 4,
+                    "text": "Lovely ambiance and great desserts."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sushi Delight",
+            "rating": 5,
+            "price_range": 4500,
+            "open_now": false,
+            "categories": ["Japanese", "Sushi Bar"],
+            "photos": "https://source.unsplash.com/featured/?sushi",
+            "address": "789 Sakura Avenue, Sushiville",
+            "open_hours": {
+              "Monday": "11:30 AM - 9:00 PM",
+              "Tuesday": "11:30 AM - 9:00 PM",
+              "Wednesday": "11:30 AM - 9:00 PM",
+              "Thursday": "11:30 AM - 9:00 PM",
+              "Friday": "11:30 AM - 10:00 PM",
+              "Saturday": "12:00 PM - 10:00 PM",
+              "Sunday": "12:00 PM - 9:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 105,
+                    "user": "Emily Chen",
+                    "rating": 5,
+                    "text": "Best sushi I've ever had!"
+                },
+                {
+                    "id": 106,
+                    "user": "Takashi Yamamoto",
+                    "rating": 4.5,
+                    "text": "Authentic Japanese experience."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "La Pizzeria",
+            "rating": 3,
+            "price_range": 3500,
+            "open_now": true,
+            "categories": ["Italian", "Pizzeria"],
+            "photos": "https://source.unsplash.com/featured/?pizza",
+            "address": "567 Pepperoni Street, Pizzatown",
+            "open_hours": {
+              "Monday": "11:00 AM - 9:00 PM",
+              "Tuesday": "11:00 AM - 9:00 PM",
+              "Wednesday": "11:00 AM - 9:00 PM",
+              "Thursday": "11:00 AM - 9:00 PM",
+              "Friday": "11:00 AM - 10:00 PM",
+              "Saturday": "12:00 PM - 10:00 PM",
+              "Sunday": "12:00 PM - 9:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 107,
+                    "user": "Marco Rossi",
+                    "rating": 4.8,
+                    "text": "Delicious wood-fired pizzas!"
+                },
+                {
+                    "id": 108,
+                    "user": "Isabella Bianchi",
+                    "rating": 4.5,
+                    "text": "Great crust and toppings."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Mama Mia Trattoria",
+            "rating": 4,
+            "price_range": 3500,
+            "open_now": true,
+            "categories": ["Italian", "Casual Dining"],
+            "photos": "https://source.unsplash.com/featured/?trattoria",
+            "address": "789 Spaghetti Avenue, Pastatown",
+            "open_hours": {
+                "Monday": "10:00 AM - 9:00 PM",
+                "Tuesday": "10:00 AM - 9:00 PM",
+                "Wednesday": "10:00 AM - 9:00 PM",
+                "Thursday": "10:00 AM - 9:00 PM",
+                "Friday": "10:00 AM - 9:00 PM",
+                "Saturday": "12:00 PM - 10:00 PM",
+                "Sunday": "12:00 PM - 10:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 109,
+                    "user": "Maria Rossi",
+                    "rating": 4.5,
+                    "text": "Pastanya enak sekali!"
+                },
+                {
+                    "id": 110,
+                    "user": "Antonio Moretti",
+                    "rating": 4,
+                    "text": "Atmosfir yang menyenangkan dan pelayanan ramah."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "The Bistro",
+            "rating": 3,
+            "price_range": 5000,
+            "open_now": true,
+            "categories": ["European", "Bistro"],
+            "photos": "https://source.unsplash.com/featured/?bistro",
+            "address": "890 Main Boulevard, Cityscape",
+            "open_hours": {
+                "Monday": "11:00 AM - 10:00 PM",
+                "Tuesday": "11:00 AM - 10:00 PM",
+                "Wednesday": "11:00 AM - 10:00 PM",
+                "Thursday": "11:00 AM - 10:00 PM",
+                "Friday": "11:00 AM - 10:00 PM",
+                "Saturday": "12:00 PM - 11:00 PM",
+                "Sunday": "12:00 PM - 11:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 111,
+                    "user": "Sophie Dubois",
+                    "rating": 5,
+                    "text": "Makanan dan anggur yang luar biasa!"
+                },
+                {
+                    "id": 112,
+                    "user": "Pierre Lefevre",
+                    "rating": 4.5,
+                    "text": "Suasana yang cozy dan menu yang lezat."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Taste of India",
+            "rating": 4,
+            "price_range": 3800,
+            "open_now": false,
+            "categories": ["Indian", "Fine Dining"],
+            "photos": "https://source.unsplash.com/featured/?indianfood",
+            "address": "123 Curry Lane, Spice City",
+            "open_hours": {
+                "Monday": "11:00 AM - 9:00 PM",
+                "Tuesday": "11:00 AM - 9:00 PM",
+                "Wednesday": "11:00 AM - 9:00 PM",
+                "Thursday": "11:00 AM - 9:00 PM",
+                "Friday": "11:00 AM - 10:00 PM",
+                "Saturday": "12:00 PM - 10:00 PM",
+                "Sunday": "12:00 PM - 9:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 113,
+                    "user": "Rajesh Patel",
+                    "rating": 4.5,
+                    "text": "Rasa autentik dan pelayanan yang ramah!"
+                },
+                {
+                    "id": 114,
+                    "user": "Anita Gupta",
+                    "rating": 4,
+                    "text": "Makanan lezat dengan variasi yang kaya."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "El Rancho",
+            "rating": 5,
+            "price_range": 4200,
+            "open_now": true,
+            "categories": ["Mexican", "Authentic Dining"],
+            "photos": "https://source.unsplash.com/featured/?mexicanfood",
+            "address": "456 Nacho Street, Mexicoville",
+            "open_hours": {
+                "Monday": "11:00 AM - 9:00 PM",
+                "Tuesday": "11:00 AM - 9:00 PM",
+                "Wednesday": "11:00 AM - 9:00 PM",
+                "Thursday": "11:00 AM - 9:00 PM",
+                "Friday": "11:00 AM - 10:00 PM",
+                "Saturday": "12:00 PM - 10:00 PM",
+                "Sunday": "12:00 PM - 9:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 115,
+                    "user": "Javier Hernandez",
+                    "rating": 5,
+                    "text": "Authentic Mexican flavors!"
+                },
+                {
+                    "id": 116,
+                    "user": "Maria Rodriguez",
+                    "rating": 4.5,
+                    "text": "Great ambiance and friendly staff."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "The Green Leaf",
+            "rating": 5,
+            "price_range": 3800,
+            "open_now": true,
+            "categories": ["Vegetarian", "Healthy Dining"],
+            "photos": "https://source.unsplash.com/featured/?vegetarian",
+            "address": "789 Garden Avenue, Greensville",
+            "open_hours": {
+                "Monday": "10:00 AM - 8:00 PM",
+                "Tuesday": "10:00 AM - 8:00 PM",
+                "Wednesday": "10:00 AM - 8:00 PM",
+                "Thursday": "10:00 AM - 8:00 PM",
+                "Friday": "10:00 AM - 9:00 PM",
+                "Saturday": "11:00 AM - 9:00 PM",
+                "Sunday": "11:00 AM - 8:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 117,
+                    "user": "Emma Green",
+                    "rating": 4.5,
+                    "text": "Delicious and nutritious meals!"
+                },
+                {
+                    "id": 118,
+                    "user": "David Smith",
+                    "rating": 4.3,
+                    "text": "Great variety of vegetarian options."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Seafood Haven",
+            "rating": 3,
+            "price_range": 5500,
+            "open_now": true,
+            "categories": ["Seafood", "Fine Dining"],
+            "photos": "https://source.unsplash.com/featured/?seafood",
+            "address": "123 Ocean Drive, Seascape",
+            "open_hours": {
+                "Monday": "12:00 PM - 9:00 PM",
+                "Tuesday": "12:00 PM - 9:00 PM",
+                "Wednesday": "12:00 PM - 9:00 PM",
+                "Thursday": "12:00 PM - 9:00 PM",
+                "Friday": "12:00 PM - 10:00 PM",
+                "Saturday": "12:00 PM - 10:00 PM",
+                "Sunday": "12:00 PM - 9:00 PM"
+            },
+            "reviews": [
+                {
+                    "id": 119,
+                    "user": "Alexandra Johnson",
+                    "rating": 5,
+                    "text": "Fresh and flavorful seafood dishes!"
+                },
+                {
+                    "id": 120,
+                    "user": "Michael Thompson",
+                    "rating": 4.7,
+                    "text": "Impeccable service and stunning ocean views."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+.restaurant-title-section {
+    padding: 20px;
+}
+
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.filter-section p {
+    color: #666;
+    font-weight: bold;
+}
+
+.clear-all-button {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #13354b;
+    padding: 10px 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.restaurant-title-section h1 {
+    color: black;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.load-more-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.load-more-button {
+    width: 30%;
+    background-color: white;
+    border: 1px solid #13354b;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
