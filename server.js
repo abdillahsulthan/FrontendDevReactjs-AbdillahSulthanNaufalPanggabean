@@ -2,10 +2,10 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-// const port = 3001;
+const port = 3001;
 
 const corsOptions = {
-  origin: 'https://restaurant-website-jet.vercel.app',
+  origin: 'http://localhost:3000',
 };
 
 app.use(cors(corsOptions));
@@ -46,5 +46,5 @@ app.get('/restaurants/category/:category', (req, res) => {
 
 
 app.listen(port, () => {
-    console.log(`API SERVER ON https://restaurant-website-jet.vercel.app/api`);
+    console.log(`API SERVER ON http://localhost:${port}`);
 });

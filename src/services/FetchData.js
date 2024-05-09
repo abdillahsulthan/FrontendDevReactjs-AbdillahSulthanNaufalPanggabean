@@ -1,6 +1,6 @@
 export async function fetchRestaurants() {
     try {
-        const response = await fetch("https://restaurant-website-jet.vercel.app/api/restaurants");
+        const response = await fetch("http://localhost:3001/restaurants");
         const data = await response.json();
         return data.restaurants;
     } catch (error) {
@@ -11,7 +11,7 @@ export async function fetchRestaurants() {
 
 export async function fetchCategories() {
     try {
-        const response = await fetch("https://restaurant-website-jet.vercel.app/api/categories");
+        const response = await fetch("http://localhost:3001/categories");
         const data = await response.json();
         return data;
     } catch (error) {
@@ -22,7 +22,7 @@ export async function fetchCategories() {
 
 export async function fetchRestaurantByCategories(category) {
     try {
-        const response = await fetch(`https://restaurant-website-jet.vercel.app/api/restaurants/category/${category}`);
+        const response = await fetch(`http://localhost:3001/restaurants/category/${category}`);
         const data = await response.json();
         return data;
     } catch (error) {
@@ -33,7 +33,7 @@ export async function fetchRestaurantByCategories(category) {
 
 export async function fetchRestaurantById(id) {
     try {
-        const response = await fetch(`https://restaurant-website-jet.vercel.app/api/restaurant/${id}`);
+        const response = await fetch(`http://localhost:3001/restaurant/${id}`);
         const data = await response.json();
         return data;
     } catch (error) {
